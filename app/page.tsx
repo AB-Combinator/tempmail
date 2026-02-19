@@ -569,6 +569,18 @@ export default function Home() {
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
             TempMail &mdash; Free Temporary Email Service
           </p>
+          <p className="mt-2 text-xs" style={{ color: "var(--text-muted)", opacity: 0.6 }}>
+            Powered by the{" "}
+            <a
+              href="https://tempmail.lol"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 transition-colors hover:text-indigo-400"
+            >
+              TempMail.lol
+            </a>{" "}
+            API. This site is an independent project and is not affiliated with or endorsed by TempMail.lol.
+          </p>
           <p className="mt-1 text-xs" style={{ color: "var(--text-muted)", opacity: 0.5 }}>
             &copy; 2026 TempMail
           </p>
